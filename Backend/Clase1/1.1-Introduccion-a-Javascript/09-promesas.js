@@ -1,6 +1,6 @@
-import { getHeroeById } from './08-imp-exp';
+const { getHeroeById } = require("./08-imp-exp");
 
-export const getHeroeByIdAsync = (id) => {
+module.exports = getHeroeByIdAsync = (id) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       // Tarea
@@ -9,8 +9,10 @@ export const getHeroeByIdAsync = (id) => {
       if (p1) {
         resolve(p1);
       } else {
-        reject('No se pudo encontrar el héroe');
+        reject("No se pudo encontrar el héroe");
       }
-    }, 100);
+    }, 1000);
   });
 };
+
+console.log(getHeroeByIdAsync(1));
