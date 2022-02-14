@@ -1,0 +1,42 @@
+[
+  {
+    "companyId": "1",
+    "title": "Frontend Developer",
+    "description": "We are looking for a Frontend Developer familiar with React."
+  },
+  {
+    "companyId": "1",
+    "title": "Backend Developer",
+    "description": "We are looking for a Backend Developer familiar with Node.js and Express."
+  },
+  {
+    "companyId": "2",
+    "title": "Full-Stack Developer",
+    "description": "We are looking for a Full-Stack Developer familiar with Node.js, Express, and React."
+  },
+  {
+    "title": "New Job 1",
+    "description": "Test 1",
+    "companyId": "2"
+  },
+  {
+    "title": "New Job 2",
+    "description": "Test 2",
+    "companyId": "2"
+  },
+  {
+    "title": "New Job 3",
+    "description": "test 3",
+    "companyId": "2"
+  },
+  {
+   "title": "New Job 5",
+    "description": "test5",
+    "companyId": "2"
+  },
+  {
+    "title": "New Job 6",
+    "description": "test6",
+    "companyId": "2"
+  }
+]

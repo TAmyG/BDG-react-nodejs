@@ -1,0 +1,12 @@
+[
+  {
+    "email": "user1@bdgsa.net",
+    "password": "user1",
+    "companyId": "1"
+  },
+  {
+    "email": "user2@bdgsa.net",
+    "password": "user2",
+    "companyId": "2"
+  }
+]
